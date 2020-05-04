@@ -12,7 +12,7 @@ A pure python deep learning library built entirely on **numpy** package and code
 ### Activations
 - [x] ReLU
 - [x] Sigmoid
-- [ ] Softmax
+- [x] Softmax
 
 ### Learners
 - [x] SGD - Stochastic Gradient Descent

@@ -9,6 +9,8 @@ class Layer:
             self.activation = Relu()
         elif activation=='sigmoid':
             self.activation = Sigmoid()
+        elif activation=='softmax':
+            self.activation = Softmax()
         # TODO: Add here when new Activation is added.
         pass
     

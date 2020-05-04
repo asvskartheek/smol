@@ -11,5 +11,5 @@ class Relu:
     def backward(self,dU): # Upstream Grad
         self.dU = dU
         mask = (self.out > 0).astype(np.float64)
-        self.dD = np.mean(np.multiply(mask,self.dU),axis=0)
+        self.dD = np.multiply(self.dU,np.mean(mask,axis=0))
         return self.dD
